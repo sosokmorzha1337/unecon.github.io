@@ -1,1 +1,1 @@
-# unecon.sosokmorzha1337.github.io
+# unecon.github.io
