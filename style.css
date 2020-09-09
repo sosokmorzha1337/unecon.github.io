@@ -1,0 +1,193 @@
+body {
+  font-family: "Calibri", sans-serif;
+}
+
+header {
+  display:inline-flex;
+}
+
+.title {
+  padding-left: 5em;
+}
+
+a {
+  text-decoration: none;
+  color: #3333ff;
+}
+
+main {
+
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  color: #66CDAA;
+  font-family: "Calibri", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #66CDAA;
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #66CDAA;
+  text-align: justify;
+}
+
+h4 {
+  color: red;
+  font-family: "Calibri", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: black;
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+
+}
+
+.nav-part {
+  height: 60px;
+  text-align: center;
+  flex-grow: 1;
+  background-color: #66CDAA;
+  color: white;
+  font-size: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+  transition: 1000ms;
+}
+
+.nav-part a {
+  color: white;
+}
+
+.nav-part a:hover {
+  color: grey;
+  transition: 500ms;
+}
+
+.main-part {
+  margin-top: 1em;
+  border: 5px solid #66CDAA;
+  border-radius: 50px;
+  padding: 1em;
+}
+
+.ads {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: space-around;
+  margin: 1em;
+  row-gap: 1.5em;
+}
+
+.ads__part {
+  padding: 1em;
+  border: 3px solid #66CDAA;
+  background-color: lightblue;
+  border-radius: 15px;
+}
+
+.ads__part__main {
+  text-align: center;
+  margin: auto 0;
+}
+
+.ads__part__main p {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contacts {
+  width: 500px;
+  height: 200px;
+  margin-left: 1em;
+}
+
+.contacts p{
+  text-align: justify;
+}
+
+.table {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 17px;
+}
+
+.main-stroke td {
+  background-color: #ffb3ff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+tr {
+}
+
+td {
+  border: 1px solid black;
+}
+
+.general {
+  border: 5px solid #66CDAA;
+  border-radius: 15px;
+  width: 90%;
+  margin: 2em auto;
+  text-align: justify;
+}
+
+.general__main {
+  margin: 1em;
+}
+
+.general__main h3 {
+  text-align: center;
+}
+
+.general__main a {
+  text-decoration: underline;
+  color: #3333ff;
+}
+
+.general__main a:visited {
+  color: #3333ff;
+}
